@@ -148,7 +148,7 @@ def make_ti_genes_fasta(feature_list, input):
     SeqIO.write(aa_seqs, f"{get_base_file_name(input)}.ti_genes.faa", 'fasta')
 
 
-    return f"Ti genes extracted and written in: f{get_base_file_name(input)}.ti_genes.ffn/fna files" 
+    return f"Ti genes extracted and written in: {get_base_file_name(input)}.ti_genes.ffn/fna files" 
 
 
 def make_gff3(features_list, input):
