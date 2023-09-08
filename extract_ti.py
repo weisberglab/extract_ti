@@ -12,11 +12,11 @@ def get_base_file_name(file_name):
     INPUT: Input GenBank file name or path to the file
     OUTPUT: Base name 
     """
-    if '.' in file_name:
-        file_name = file_name.split('.')[0]
-    
     if '/' in file_name:
         file_name = file_name.split('/')[-1]
+        
+    if '.' in file_name:
+        file_name = file_name.split('.')[0]
     
     return file_name
 
