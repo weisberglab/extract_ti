@@ -10,7 +10,8 @@ Extract Ti/Ri oncogenic plasmid based on BEAV output
 # Usage
 `python3 extract_ti.py [-h] --input INPUT --contiglist CONTIGLIST`
 
-Alternatively, you can submit an SGE_Array job using the wrapper provided in the `SGE_wrapper/run_extract_ti.sh` directory. Use the following command:
+Alternatively, you can submit an SGE job using the wrapper provided in the `SGE_wrapper/run_extract_ti.sh` directory. Use the following command:
+
 `./run_extract_ti.sh path/to/BEAV/output/dir`
 
 # Arguments
