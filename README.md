@@ -22,3 +22,7 @@ Alternatively, you can submit an SGE job using the wrapper provided in the `SGE_
 - Ti genes extracted and written in: `*.ti_genes.ffn/fna files`
 - Ti gene extraction summary written `in: *.ti_genes.gff3`
 - Ti plasmid extracted and saved in: `*.ti_plasmid.gbk`
+
+# To do
+[] Update bash wrapper script.
+[] Set up dedicated output directory.
