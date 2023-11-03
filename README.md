@@ -24,5 +24,5 @@ Alternatively, you can submit an SGE job using the wrapper provided in the `SGE_
 - Ti plasmid extracted and saved in: `*.ti_plasmid.gbk`
 
 # To do
-[] Update bash wrapper script.
-[] Set up dedicated output directory.
+- Update bash wrapper script.
+- Set up dedicated output directory.
